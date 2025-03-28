@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Spam Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>About Spam Detection System</h1>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/detect">Detect Spam</a></li>
+                <li><a href="/history">History</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="about">
+            <h2>How It Works</h2>
+            <p>Our system identifies spam messages and calls using advanced AI algorithms, keyword analysis, and regex pattern matching.</p>
+            
+            <h3>Technologies Used:</h3>
+            <ul>
+                <li><strong>Flask:</strong> Backend framework for processing requests</li>
+                <li><strong>Regex (Regular Expressions):</strong> Pattern-based spam detection</li>
+                <li><strong>MySQL:</strong> Stores detected spam history</li>
+                <li><strong>HTML, CSS, JavaScript:</strong> Creates an interactive user interface</li>
+            </ul>
+        </section>
+
+        <section class="team">
+            <h2>Meet Our Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="{{ url_for('static', filename='team1.jpg') }}" alt="Team Member 1">
+                    <p>John Doe - AI Engineer</p>
+                </div>
+                <div class="team-member">
+                    <img src="{{ url_for('static', filename='team2.jpg') }}" alt="Team Member 2">
+                    <p>Jane Smith - Backend Developer</p>
+                </div>
+                <div class="team-member">
+                    <img src="{{ url_for('static', filename='team3.jpg') }}" alt="Team Member 3">
+                    <p>Mark Johnson - UI/UX Designer</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Spam Detection System | Designed with ❤️</p>
+    </footer>
+</body>
+</html>

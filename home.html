@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spam Detection System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>Spam Detection System</h1>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/detect">Detect Spam</a></li>
+                <li><a href="/history">History</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="container">
+        <section class="hero">
+            <h2>Welcome to the Spam Detection System</h2>
+            <p>Detect spam messages and calls using AI-powered algorithms.</p>
+            <a href="/detect" class="btn">Start Detecting</a>
+        </section>
+        
+        <section class="features">
+            <h2>Why Choose Our System?</h2>
+            <div class="feature-grid">
+                <div class="feature">
+                    <h3>🔍 Accurate Detection</h3>
+                    <p>Utilizes AI & regex to detect spam with high accuracy.</p>
+                </div>
+                <div class="feature">
+                    <h3>🛡️ Secure & Private</h3>
+                    <p>Your data is safe, and we prioritize privacy.</p>
+                </div>
+                <div class="feature">
+                    <h3>📊 Easy-to-Use</h3>
+                    <p>Simple interface for detecting and tracking spam.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Spam Detection System | Designed with ❤️</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,125 @@
+/* Apply a dark theme with smooth UI */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Navbar styling */
+.navbar {
+    width: 100%;
+    background: #222;
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.navbar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: #ffcc00;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Center content */
+.container {
+    max-width: 800px;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    margin: 100px auto;
+}
+
+/* Hero section */
+.hero {
+    padding: 50px 0;
+}
+
+.hero h2 {
+    font-size: 32px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Features section */
+.features {
+    padding: 40px 0;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.feature {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+}
+
+/* Team section */
+.team-grid {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.team-member {
+    width: 30%;
+}
+
+.team-member img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background: #ffcc00;
+    color: black;
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #ffdd44;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    background: #222;
+    padding: 20px;
+}
